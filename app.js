@@ -13,5 +13,5 @@ app.use((req,res,next) =>{
     })
 })
 
-// app.listen(3001, () => console.log('Server: http://localhost:3001'))
-app.listen(process.env.PORT || 3000, () => console.log('Server: https://rofi-expressjs.herokuapp.com:3000'))
+app.listen(3001, () => console.log('Server: http://localhost:3001'))
+// app.listen(process.env.PORT || 3000, () => console.log('Server: https://rofi-expressjs.herokuapp.com:3000'))
